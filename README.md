@@ -29,3 +29,13 @@ nohup python3 server.py > nohup.out 2>&1 &
 ps -ef | grep server.py
 kill -9 pid
 ```
+
+4. 本地插件设置
+
+参考[zhile大佬的脚本](https://zhile.io/2023/09/09/github-got-banned.html)，更改对应的 GITHUB_API_URL 、 GITHUB_TOKEN 即可。
+
+## 其他
+
+该脚本目的仅用于测试使用，因测试过程频繁请求zhile大佬的服务器，导致触发rate limit影响测试，故写了该脚本，因此 README.md 写的比较简单。
+
+关于cocopilot的使用方法请参考：[zhile](https://zhile.io/2023/09/09/github-got-banned.html) ，感恩zhile大佬！
